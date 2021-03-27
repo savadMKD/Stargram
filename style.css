@@ -12,6 +12,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Courier Prime", monospace;
   overflow-x: hidden;
@@ -84,3 +87,38 @@ header .navigation li a {
   padding: 10px 15px;
 }
 /* Hero Section End.... */
+
+/* How To Section Start */
+.how_to {
+  background: var(--background-color);
+  color: var(--primary-color);
+  padding-bottom: 50px;
+}
+.how_to img {
+  width: 100px;
+}
+.how_to .how_to_title {
+  font-size: 25px;
+  text-align: center;
+  padding-top: 60px;
+}
+.how_to .how_it_works {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.how_to .how_it_works div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #1f1e1e;
+  padding: 50px;
+  width: 300px;
+  height: 300px;
+}
+.how_to .how_it_works div img {
+  padding-bottom: 10px;
+}
