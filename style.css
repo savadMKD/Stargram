@@ -187,3 +187,38 @@ header .navigation li a {
     width: 100%;
   }
 }
+.faq_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.faq_section .faq_title {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 25px;
+}
+.faq_section details {
+  padding: 20px;
+  padding-bottom: 10px;
+  width: 800px;
+}
+.faq_section details summary {
+  background-color: #1f1e1e;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 30px;
+  cursor: pointer;
+}
+.faq_section details p {
+  border: 1px solid var(--logo-color);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-left: 30px;
+}
