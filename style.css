@@ -19,6 +19,7 @@ body {
   font-family: "Courier Prime", monospace;
   overflow-x: hidden;
   background: var(--background-color);
+  color: var(--primary-color);
 }
 a {
   text-decoration: none;
@@ -197,7 +198,6 @@ header .navigation li a {
 }
 .faq_section .faq_title {
   text-align: center;
-  color: var(--primary-color);
   font-size: 25px;
 }
 .faq_section details {
@@ -221,4 +221,61 @@ header .navigation li a {
   align-items: center;
   text-align: center;
   padding-left: 30px;
+}
+.title {
+  color: var(--logo-color);
+}
+
+/* Contact Section */
+.contact_section {
+  margin-bottom: 50px;
+}
+.contact_section .contact_intro {
+  text-align: center;
+}
+.contact_section .contact_intro h2 {
+  font-weight: 400;
+}
+.contact_section .contact_intro p {
+  margin-top: 10px;
+  color: var(--primary-color);
+}
+.contact_section .contact_form {
+  text-align: center;
+  margin-top: 50px;
+}
+.contact_section .contact_form .form_group {
+  padding: 10px;
+}
+.contact_section .contact_form .form_group input {
+  height: 45px;
+  width: 500px;
+  background: #1f1e1e;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  outline: none;
+  padding-left: 20px;
+  color: var(--primary-color);
+}
+.contact_section .contact_form .form_group input::placeholder {
+  padding-left: 20px;
+}
+.contact_section .contact_form .button {
+  text-align: center;
+}
+.contact_section .contact_form .button input {
+  height: 50px;
+  width: 250px;
+  border-radius: initial;
+  background: var(--logo-color);
+  color: var(--background-color);
+  padding-left: initial;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+.contact_section .contact_form .button input:hover {
+  width: 300px;
 }

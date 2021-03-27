@@ -21,9 +21,9 @@
       <ul class="navigation">
         <li><a href="#home">Home</a></li>
         <li><a href="#how_to">How To</a></li>
-        <li><a href="#">Testimonials</a></li>
-        <li><a href="#">Faq</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#testimonial">Testimonials</a></li>
+        <li><a href="#faq">Faq</a></li>
+        <li><a href="#contact">Signup</a></li>
       </ul>
     </header>
     <!-- Navigation Bar End.. -->
@@ -43,7 +43,7 @@
 
     <!-- How To Section Start -->
     <section class="how_to" id="how_to">
-      <div class="how_to_title">How It Works</div>
+      <div class="how_to_title title">How It Works</div>
       <div class="how_it_works">
         <div class="step-1">
           <img src="img/search.svg" alt="Search Image" />
@@ -65,7 +65,7 @@
     <!-- How To Section End -->
 
     <!-- Testimonial Section -->
-    <div class="wrapper">
+    <div class="wrapper" id="testimonial">
       <div class="box">
         <i class="fas fa-quote-left quote"></i>
         <p>
@@ -119,8 +119,8 @@
     </div>
 
     <!-- Faq Section -->
-    <section class="faq_section">
-      <div class="faq_title">Frequently Asked Question</div>
+    <section class="faq_section" id="faq">
+      <div class="faq_title title">Frequently Asked Question</div>
       <details style="color: white">
         <summary>STARGRAM?? What's that?🤔</summary>
         <p>It's a platform to connect with your favourite YouTubers.</p>
@@ -136,6 +136,33 @@
         <summary>Can We Use This App in IOS and Android ?</summary>
         <p>It's available on app store and play store.</p>
       </details>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact_section" id="contact">
+      <div class="contact_intro title">
+        <h2>Sign Up as a Star</h2>
+        <p>
+          Want to join Stargram as a star, you can enroll here and we'll be in
+          touch.
+        </p>
+      </div>
+      <div class="contact_form">
+        <form autocomplete="off">
+          <div class="form_group">
+            <input type="text" name="Name" placeholder="Enter your Name..." />
+          </div>
+          <div class="form_group">
+            <input type="email" name="Email" placeholder="Enter your Email.." />
+          </div>
+          <div class="form_group">
+            <input type="number" name="Phone" placeholder="Enter your Phone." />
+          </div>
+          <div class="form_group button">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
     </section>
     <script src="script.js"></script>
   </body>
