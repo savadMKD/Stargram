@@ -54,3 +54,33 @@ header .navigation li a {
   font-size: 20px;
 }
 /* Navigation Bar End */
+
+/* Hero Section Start */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 112px;
+  padding-top: 118px;
+  background: var(--background-color);
+  color: var(--primary-color);
+}
+.hero .hero_content h1 {
+  font-size: 35px;
+}
+.hero .hero_content p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  margin-bottom: 22px;
+}
+.hero .hero_content a {
+  padding: 10px 10px;
+  background: var(--logo-color);
+  color: var(--background-color);
+  transition: all 0.2s ease-in-out;
+}
+.hero .hero_content a:hover {
+  padding: 10px 15px;
+}
+/* Hero Section End.... */
