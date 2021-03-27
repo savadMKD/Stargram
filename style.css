@@ -279,3 +279,66 @@ header .navigation li a {
 .contact_section .contact_form .button input:hover {
   width: 300px;
 }
+
+.download {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.download h1 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.download .download_images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download .download_images img.apple {
+  width: 180px;
+}
+.download .download_images img.android {
+  width: 200px;
+}
+
+footer {
+  background: #1f1e1e;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: var(--logo-color);
+}
+footer .brand img {
+  width: 80px;
+}
+footer .email a {
+  font-size: 20px;
+  transition: all 0.2s ease-in-out;
+}
+footer .email a:hover {
+  color: var(--logo-color);
+}
+
+footer .social ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+footer .social ul li {
+  padding-left: 15px;
+}
+footer .social ul li a {
+  font-size: 25px;
+}
+footer .social ul li a:nth-child(1) {
+  color: #41c152;
+}
+footer .social ul li a:nth-child(2) {
+  color: #b43684;
+}
