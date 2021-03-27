@@ -18,6 +18,7 @@ html {
 body {
   font-family: "Courier Prime", monospace;
   overflow-x: hidden;
+  background: var(--background-color);
 }
 a {
   text-decoration: none;
@@ -121,4 +122,68 @@ header .navigation li a {
 }
 .how_to .how_it_works div img {
   padding-bottom: 10px;
+}
+
+.wrapper {
+  font-family: Poppins;
+  background: var(--background-color);
+  margin-top: 80px;
+  /* max-width: 1200px; */
+  /* margin: auto; */
+  padding: 0 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.wrapper .box {
+  color: var(--primary-color);
+  background: #1f1e1e;
+  width: calc(33% - 10px);
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+.wrapper .box i.quote {
+  font-size: 20px;
+  color: var(--logo-color);
+}
+.wrapper .box .content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.box .content .image {
+  margin-top: 10px;
+  margin-left: 65%;
+  height: 45px;
+  width: 45px;
+  padding: 3px;
+  background: var(--logo-color);
+  border-radius: 50%;
+}
+.content .image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.box:hover .content .image img {
+  border-color: #fff;
+}
+
+@media (max-width: 1045px) {
+  .wrapper .box {
+    width: calc(50% - 10px);
+    margin: 10px 0;
+  }
+}
+@media (max-width: 702px) {
+  .wrapper .box {
+    width: 100%;
+  }
 }
