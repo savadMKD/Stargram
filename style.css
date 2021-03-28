@@ -342,3 +342,92 @@ footer .social ul li a:nth-child(1) {
 footer .social ul li a:nth-child(2) {
   color: #b43684;
 }
+
+.checkbtn {
+  font-size: 25px;
+  color: var(--logo-color);
+  float: right;
+  line-height: 80px;
+  margin-right: 1px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .hero {
+    flex-direction: column-reverse;
+    padding: initial;
+    text-align: center;
+    padding-top: 95px;
+  }
+  .hero .hero_image img {
+    width: 450px;
+  }
+  .hero .hero_content h1 {
+    font-size: 30px;
+  }
+
+  .how_to .how_it_works {
+    flex-direction: column;
+  }
+  .how_to .how_it_works div {
+    padding: initial;
+    margin-bottom: 10px;
+    width: 400px;
+  }
+  .faq_section details {
+    width: 500px;
+  }
+  .faq_section details p {
+    padding: 37px;
+  }
+  .contact_section .contact_form .form_group input {
+    width: 400px;
+  }
+  footer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  footer .email {
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+  footer .social {
+    margin-bottom: 20px;
+  }
+
+  header .checkbtn {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  header ul {
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 50vh;
+    background: #1f1e1e;
+    top: 72px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  header ul li {
+    margin: 10px 0;
+    line-height: 30px;
+  }
+  header ul li a {
+    font-size: 20px;
+  }
+  header ul li a:hover {
+    color: var(--logo-color);
+  }
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
